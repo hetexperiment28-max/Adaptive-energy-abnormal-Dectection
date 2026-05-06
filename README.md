@@ -1,6 +1,6 @@
 # ⚡ Smart Adaptive Energy Monitoring System
 
-## 📌 Overview
+##  Overview
 This project implements a real-time adaptive energy monitoring system using ESP8266 and Python.  
 It detects abnormal energy usage patterns using a rolling baseline model and dynamically adjusts thresholds to handle sustained changes such as new appliance installation.
 
@@ -8,7 +8,7 @@ The system provides live visualization and monthly trend analysis.
 
 ---
 
-## 🏗 System Architecture
+## System Architecture
 
 ESP8266 (Potentiometer Input)  
 → Serial Communication  
@@ -19,7 +19,7 @@ ESP8266 (Potentiometer Input)
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Real-time serial data acquisition
 - Adaptive threshold adjustment
@@ -31,7 +31,7 @@ ESP8266 (Potentiometer Input)
 
 ---
 
-## 🧠 Adaptive Logic
+##  Adaptive Logic
 
 - Initial fixed baseline (5 kW)
 - Rolling window mean calculation
@@ -40,7 +40,7 @@ ESP8266 (Potentiometer Input)
 
 ---
 
-## 🛠 Technology Stack
+##  Technology Stack
 
 **Hardware**
 - ESP8266 (NodeMCU)
@@ -55,7 +55,7 @@ ESP8266 (Potentiometer Input)
 **Data Storage**
 - CSV File
 
----
+----------------------
 
 ## 📊 Visualization
 
@@ -64,7 +64,7 @@ ESP8266 (Potentiometer Input)
 - Spike detection markers
 - Monthly average bar chart
 
----
+-----------------------
 
 ## 🔮 Future Enhancements
 
