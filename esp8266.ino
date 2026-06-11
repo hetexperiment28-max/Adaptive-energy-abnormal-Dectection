@@ -1,3 +1,5 @@
+
+//code to get esp data from electricity measurement sensor (for project using potentiometer to fake voltage currents data to shoe live on stage
 #define POT_PIN A0   // For ESP32 (use A0 for ESP8266)
 
 void setup() {
@@ -12,5 +14,5 @@ void loop() {
 
   Serial.println(energyValue);
 
-  delay(5000);  // send every 1 second
+  delay(3000);  // send every 3 second
 }
