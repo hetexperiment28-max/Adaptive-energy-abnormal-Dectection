@@ -8,8 +8,8 @@ import os
 import matplotlib.dates as mdates
 
 # ---------------- SETTINGS ----------------
-file_path = "D:/het.code/project shell/energy_data.csv"
-port = "COM11"
+file_path = "energy_data.csv" #add path
+port = "" #add com port like(COM11)
 baud_rate = 115200
 
 BASE_THRESHOLD = 5
