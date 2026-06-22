@@ -6,8 +6,8 @@ from datetime import datetime, timedelta
 import os
 
 # ---------------- SETTINGS ----------------
-file_path = "D:/het.code/project shell/energy_data.csv"
-port = "COM11"
+file_path = "energy_data.csv" #add path
+port = "COM11" #add your com port
 baud_rate = 115200
 
 BASE_THRESHOLD = 5
