@@ -1,3 +1,4 @@
+#to ensure esp sending signals perfectly or not
 import serial
 
 ser = serial.Serial("COM11",115200)
