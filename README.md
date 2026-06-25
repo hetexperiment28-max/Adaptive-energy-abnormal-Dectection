@@ -78,7 +78,8 @@ ESP8266 (Potentiometer Input)
 
 ## ⚙ How to Run
 
-1. Upload Arduino code to ESP8266.
-2. Close Arduino Serial Monitor.
+1. Upload Arduino code (named : esp8266.ino ) to ESP8266 board.
+2. open any code editor (VS code preffered)
 3. Install required Python libraries:
+4. run code and plug esp to computer to fetch live data.
 
